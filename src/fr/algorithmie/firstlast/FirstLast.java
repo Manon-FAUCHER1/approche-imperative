@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.algorithmie;
+package fr.algorithmie.firstlast;
 
 /**
  * @author manon

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.algorithmie;
+package fr.algorithmie.recherche;
 
 /**
  * @author manon

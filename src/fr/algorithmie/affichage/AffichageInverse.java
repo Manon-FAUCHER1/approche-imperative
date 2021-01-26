@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.algorithmie;
+package fr.algorithmie.affichage;
 
 import java.util.Arrays;
 

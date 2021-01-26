@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.algorithmie;
+package fr.algorithmie.somme;
 
 import java.io.Console;
 import java.util.Arrays;
