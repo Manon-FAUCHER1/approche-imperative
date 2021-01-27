@@ -17,6 +17,8 @@ public class Rotation {
 	public static void main(String[] args) {
 		int[] array = {0,1,2,3,4,5};
 		
+		System.out.println("Avant rotation :\n" + Arrays.toString(array));
+		
 		int rota = array[array.length - 1];
 		
 		for (int i = array.length-1; i>= 0; i--) {
@@ -27,7 +29,7 @@ public class Rotation {
 			}
 		}
 
-		System.out.println(Arrays.toString(array));
+		System.out.println("Après rotation :\n" + Arrays.toString(array));
 		
 	}
 }
