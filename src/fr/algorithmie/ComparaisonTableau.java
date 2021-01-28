@@ -24,6 +24,7 @@ public class ComparaisonTableau {
 		System.out.println("Tableau 2 : " + Arrays.toString(array2));
 		System.out.println("\nVoici les nombres en commun dans les deux tableaux :");
 		
+		// Code permettant de compter le nombre d’éléments en commun dans ces 2 tableaux
 		for (int i = 0; i < array1.length; i++) {
 	        for (int j = 0; j < array2.length; j++) {
 	            if (array1[i] == array2[j]) {

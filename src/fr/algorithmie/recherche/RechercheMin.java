@@ -21,6 +21,7 @@ public class RechercheMin {
 			System.out.print(nombre+", ");
 		}
 		
+		// Rechercher le plus petit élément du tableau
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] < valueMin) {
 				valueMin = array[i];

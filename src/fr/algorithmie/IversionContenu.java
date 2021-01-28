@@ -24,9 +24,9 @@ public class IversionContenu {
 		int[] arrayCopy = IntStream.rangeClosed(1, array.length).map(i -> array[array.length-i]).toArray();
 
 		// Afficher l’ensemble des éléments des 2 tableaux
-		System.out.println("Avant inversion :\n" 
+		System.out.println("Tableau avant inversion :\n" 
 						+ Arrays.toString(array) 
-						+ "\nAprès inversion :\n" 
+						+ "\nTableau après inversion :\n" 
 						+ Arrays.toString(arrayCopy));
 	
 		}

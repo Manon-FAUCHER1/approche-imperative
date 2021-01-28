@@ -3,6 +3,8 @@
  */
 package fr.algorithmie.firstlast;
 
+import java.util.Arrays;
+
 /**
  * @author manon
  *
@@ -18,11 +20,13 @@ public class FirstLast {
 		// int[] array = {0};
 		 Boolean bool = false;
 		 
+		 System.out.println("Tableau : " + Arrays.toString(array));
+		 
 		 if (array.length >= 0 && (array[0] == array[array.length-1])) {
 			 bool = true;
-			 System.out.println(" La condition est a : " + bool);
+			 System.out.println("La condition est a : " + bool);
 		 } else {
-			 System.out.println(" La condition est a : " + bool);
+			 System.out.println("La condition est a : " + bool);
 		 }
 		 
 		 

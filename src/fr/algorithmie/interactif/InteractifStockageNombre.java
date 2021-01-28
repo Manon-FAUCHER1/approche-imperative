@@ -28,7 +28,7 @@ public class InteractifStockageNombre {
 		
 		
 		do {
-			System.out.println("Veulliez choisir une option ( 1 ou 2) :\n"
+			System.out.println("\nVeulliez choisir une option ( 1 ou 2) :\n"
 					+ "1 - Ajouter un nombre \n"
 					+ "2 - Afficher les nombres existants");
 			saisiOption = sc.nextInt();
@@ -46,7 +46,7 @@ public class InteractifStockageNombre {
 					
 				}
 				
-				System.out.println("Veuillez saisir un chiffre : ");
+				System.out.println("\nVeuillez saisir un chiffre : ");
 				int saisinb = sc.nextInt();
 				
 				array[i] = saisinb;

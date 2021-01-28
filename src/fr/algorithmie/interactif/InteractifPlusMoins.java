@@ -50,7 +50,7 @@ public class InteractifPlusMoins {
 		} 
 		
 		if(saisiUser == nbRandom) {
-			System.out.println("Bravo vous avez trouvez en " + nbessaie + "!! \n");
+			System.out.println("Bravo vous avez trouvez en " + nbessaie + " coups !! \n");
 		}
 			
 	}

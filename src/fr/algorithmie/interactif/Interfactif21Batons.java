@@ -162,8 +162,6 @@ public class Interfactif21Batons {
 				System.out.println("Vous avez gagner !");
 			}
 			
-			
-			
 		}			
 
 	}

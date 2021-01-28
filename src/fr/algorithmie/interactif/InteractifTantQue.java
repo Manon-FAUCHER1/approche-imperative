@@ -24,7 +24,7 @@ public class InteractifTantQue {
 			
 		} while (!(saisiUser >= 0 && saisiUser <= 10));
 		
-	
+		System.out.println("votre nombre est :" + saisiUser);
 		
 		
 

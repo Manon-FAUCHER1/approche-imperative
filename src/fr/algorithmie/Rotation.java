@@ -15,9 +15,9 @@ public class Rotation {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int[] array = {0,1,2,3,4,5};
+		int[] array = {0,1,2,3};
 		
-		System.out.println("Avant rotation :\n" + Arrays.toString(array));
+		System.out.println("Tableau avant rotation :\n" + Arrays.toString(array));
 		
 		int rota = array[array.length - 1];
 		
@@ -29,7 +29,7 @@ public class Rotation {
 			}
 		}
 
-		System.out.println("Après rotation :\n" + Arrays.toString(array));
+		System.out.println("\nTableau après rotation :\n" + Arrays.toString(array));
 		
 	}
 }

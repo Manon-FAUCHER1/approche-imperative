@@ -21,6 +21,7 @@ public class RechercheMax {
 			System.out.print(nombre+", ");
 		}
 		
+		// Rechercher le plus grand élément du tableau
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] > valueMax) {
 				valueMax = array[i];
