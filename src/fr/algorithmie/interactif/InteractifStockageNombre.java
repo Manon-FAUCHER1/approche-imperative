@@ -35,7 +35,7 @@ public class InteractifStockageNombre {
 			
 			if(saisiOption == option1) { // option 1
 				
-				if (i >= array.length-1) {
+				if (i >= array.length) {
 					int[] array2 = new int[array.length+1];
 					
 					for (int j = 0; j < array.length; j++) {
